@@ -37,9 +37,13 @@ npm run serve
 # install component ui library
 vue use vuetify
 
+# Install axios for API cals
+npm install axios --save
+
 # Install json-server to serve data
 npm install -g json-server
 
-# Install axios for API cals
-npm install axios --save
+# in an other terminal run json-server and do not close it !
+json-server --watch db.json
+
 ```
