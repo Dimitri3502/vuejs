@@ -1,0 +1,61 @@
+{
+  "cocktails": [
+    {
+      "id": 1,
+      "title": "Mojito",
+      "img": "https://img.cuisineaz.com/610x610/2013-12-20/i14978-recette-de-mojito.jpeg",
+      "ingredients": [
+        {
+          "name": "feuilles de menthe"
+        },
+        {
+          "name": "5 cl de rhum cubain"
+        },
+        {
+          "name": "2 cuillerées à café de sucre de canne roux"
+        },
+        {
+          "name": "Eau gazeuse"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Tequila sunrise",
+      "img": "https://lh3.googleusercontent.com/proxy/yZCDPanMeas0G7ctOJDXgbCrBI8Z9-lUyet1eYpHbucwgqshO7_9PkhBKYjr-5LDRd9WlZpk2PlYyjytOzwcVlq6qLA6vB63iI90zFP2ABMqqttmt0TIx1aKIfIa5uK0IV6JxIc_gjNPl2UIo-KPl_lwCK4",
+      "ingredients": [
+        {
+          "name": "4 cl de téquila"
+        },
+        {
+          "name": "5 cl de grenadine"
+        },
+        {
+          "name": "1 cuillère à café de jus de citron"
+        },
+        {
+          "name": "15 cl de jus d'orange fraîchement pressé"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Planteur",
+      "img": "https://assets.afcdn.com/recipe/20180828/81990_w648h344c1cx1060cy707cxt0cyt0cxb2118cyb1412.jpg",
+      "ingredients": [
+        {
+          "name": "6 cl de rhum brun"
+        },
+        {
+          "name": "2 cl de jus de goyaves"
+        },
+        {
+          "name": "2 cl de jus d'ananas"
+        },
+        {
+          "name": "2 cl de jus d'oranges"
+        }
+      ]
+    }   
+  ]
+}

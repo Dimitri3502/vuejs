@@ -31,3 +31,15 @@ npm install
 # serve and open your browser at localhost:8080 
 npm run serve
 ```
+## Start coding UI to list our cocktails
+
+```bash
+# install component ui library
+vue use vuetify
+
+# Install json-server to serve data
+npm install -g json-server
+
+# Install axios for API cals
+npm install axios --save
+```

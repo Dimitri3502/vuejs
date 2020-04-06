@@ -1,28 +1,32 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <v-app>
+    <v-app-bar app color="primary" dark></v-app-bar>
+    <v-content class="d-flex">
+    <div class="d-flex">
+      <CocktailCard class="ma-5" v-for="cocktail in coktails" :cocktail="cocktail" :key="cocktail.id"/>
+    </div>
+    </v-content>
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import CocktailCard from "./components/CocktailCard";
+import CocktailService from "./services/CocktailService";
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
-</script>
+  name: "App",
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+  components: {
+    CocktailCard
+  },
+
+  data: () => ({
+    coktails: []
+  }),
+
+  created() {
+    CocktailService.getCocktails().then(response => {
+      this.coktails = response.data;
+    });
+  }
+};
+</script>
