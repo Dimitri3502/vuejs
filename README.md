@@ -13,18 +13,21 @@
 ## Create an app with vue-cli
 
 ```bash
+# install vue-cli
+npm install -g @vue/cli
+
+# check if it works
+vue --version
+
+# create app, choose npm
+vue create cocktails
+
+# change folder
+cd cocktails
+
 # install dependencies
 npm install
 
-# format, then serve with hot reload at localhost:8080
-npm run dev # or 'npm start'
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report # or 'npm run build && npm run open:report'
-
-# run all tests
-npm run test
+# serve and open your browser at localhost:8080 
+npm run serve
 ```
